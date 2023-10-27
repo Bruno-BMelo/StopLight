@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.stop-light {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.light { 
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.stop {
+  background-color: red;
+}
+
+.slow {
+  background-color: yellow;
+}
+
+.go {
+  background-color: green;
+}
+
+.light:not(.on) {
+  background-color: gray;
+}
+
+.page {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
