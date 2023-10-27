@@ -4,7 +4,7 @@ import './App.css'
 type StopLightState = "stop" | "slow" | "go";
 
 
-export function StopLight( {initialState}: {initialState? : StopLightState}) {
+export function StopLight( {initialState} : {initialState? : StopLightState}) {
 
   const [state, setState] = useState<StopLightState>(initialState ?? 'stop')
 
